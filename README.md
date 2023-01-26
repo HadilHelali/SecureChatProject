@@ -10,9 +10,9 @@ SecureChat is  desktop application built with python where you can send secure m
      <td colspan="2"> ChatRoom </td>
   </tr>
   <tr>
-    <td><img src="./Screenshots/Login.png" width=350 height=350></td>
-    <td><img src="./Screenshots/Register.png" width=350 height=350></td>
-    <td><img src="./Screenshots/ChatRoom.png" width=350 height=350></td>
+    <td><img src="./Screenshots/Login.png" width=400 height=300></td>
+    <td><img src="./Screenshots/Register.png" width=400 height=300></td>
+    <td><img src="./Screenshots/ChatRoom.png" width=400 height=300></td>
   </tr>
    </table>
 
