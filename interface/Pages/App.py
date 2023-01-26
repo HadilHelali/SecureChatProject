@@ -307,12 +307,12 @@ class ChatRoom(tk.Frame):
                                                          text_color=("gray10", "#DCE4EE"),
                                                           command= self.onSubmit )
             self.send_button[l].grid(row=10, column=3, padx=(20, 20), pady=(20, 20), sticky="nsew")
-        x1 = threading.Thread(target=self.sending)
-        x2 = threading.Thread(target=self.receiving)
-        x1.start()
-        x2.start()
-        x1.join()
-        x2.join()
+        #x1 = threading.Thread(target=self.sending)
+        #x2 = threading.Thread(target=self.receiving)
+        #x1.start()
+        #x2.start()
+        #x1.join()
+        #x2.join()
 
     def onSubmit(self):
         self.MsgToSend = self.send_box[self.sendToIndex].get()
